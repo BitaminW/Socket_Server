@@ -17,11 +17,11 @@ typedef struct sock_info {
 
 
 
-int					iResult;
-int					port_number = 9999;					
-constexpr const int client_count = 10;				// 연결 가능한 클라이언트 개수
-SOCK_INFO			sock_array[client_count + 1];	// 클라이언트 소켓정보를 담는 배열
-int					total_socket_count = 0;			// 현재 연결되어있는 소켓 개수 
+int iResult;
+int port_number = 9999;					
+constexpr const int client_count = 10;		// 연결 가능한 클라이언트 개수
+SOCK_INFO sock_array[client_count + 1];		// 클라이언트 소켓정보를 담는 배열
+int total_socket_count = 0;			// 현재 연결되어있는 소켓 개수 
 
 
 
